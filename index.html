@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>To-Do List</title>
+</head>
+<body>
+  
+    <section class="todoapp">
+      <header class="header">
+        <h1>todos</h1>
+      </header>
+    </section>
+  <div class="wrapper1">
+  <div class="wrapper2">
+  <div class="wrapper3">
+    
+    <input type="text" id="mainInput" class="todo-input" placeholder="ﻥاﻮﻨﻋ..." >
+    <span id="add" class="add">ﺔﻓﺎﺿﺇ</span>
+    <span id="checkall" class="checkall" onclick="checkALL()">Check all</span>
+    <hr>
+    <ul id="myUl">
+      <li class="list">add items<span class="remove">  X</span></li>
+      <hr>
+      <li class="list">delete items<span class="remove">  X</span></li>
+      <li class="list">check items<span class="remove">  X</span></li>
+      <li class="list">be able to add item by clicking enter<span class="remove">  X</span></li>
+    </ul>
+  
+    <span class="todo-count"></span>
+    <span class="all" onclick="showAll()">All</span>
+    <span class="active" onclick="activeItems()">Active</span>
+    <span class="completed" onclick="completedItems()">Completed</span>
+  </div>
+  </div>
+  </div>
+
+
+  <script src="app.js"></script>  
+</body>
+</html>
